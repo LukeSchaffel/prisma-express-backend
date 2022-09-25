@@ -1,0 +1,30 @@
+GET http://localhost:3000/api/products
+
+###
+GET http://localhost:3000/api/products/6
+
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "name": "Iphone 12 pro yo yo ma",
+  "price": 999,
+  "categoryId": 1
+}
+
+###
+DELETE http://localhost:3000/api/products/5
+
+
+###
+PATCH http://localhost:3000/api/products/6
+Content-Type: application/json
+
+{
+  "name": "your ass",
+  "price": 1689,
+  "categoryId": 1
+
+}
